@@ -1,0 +1,5 @@
+In this challenge, we are given a hint in source code. It's about length of username(12), password(32). So obviously, we have enough infor for truncating. Let's look around website. The website seem have two main parts, the first one let us to register new account and the second one used to verify administrator's password. So i guest they coud use "SELECT" statement to verify new user that was in DB or not, if not new username will be accepted then it's inserted into DB with "INSERT INTO" statement. Accord to this assumption, we can use truncating to cheat the register form to register new admin user then use new password to verify and get the flag
+Here is my payload:
+login=admin+(7 spaces)+2&password=12345678901
+(with 12-5=7 spaces)
+Beside truncating, the second key point of this challenge- that is there is no diffirent with SQL statment when we insert spaces to the right of string. "a" and "a " are the same

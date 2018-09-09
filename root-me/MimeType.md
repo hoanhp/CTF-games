@@ -1,0 +1,2 @@
+MIME là viết tắt của Multi-purpose Internet Mail Extensions đây là tiêu chuẩn phân loại các tập tin trên internet. Ở bài này sẽ không có bộ lọc nào được xây dựng để ngăn  cản việc ta up các file không hợp lệ, thau vào đó khi file được up lên client trước khi gửi về server nó sẽ được phân loại bởi MIME type. Việc của server là chỉ response  dữ liệu nếu MIME type của file đó phù hợp với định dạng yêu cầu.
+Cách khai thác: Chỉ cần thay đổi MIME type trong request cho phù hợp trước khi gửi lên server để có thể thu được dữ liệu như mong muốn :)

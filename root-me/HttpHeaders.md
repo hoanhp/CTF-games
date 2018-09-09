@@ -1,0 +1,1 @@
+Ở bài tập này ta sẽ tập trung khai thác phần header của http response. Dùng tool như tamper data ta có thế đọc được dữ liệu được trả về trong http response. Ở đây ta thấy được một field khả nghi đó là Header-RootMe-Admin: none => thêm trường này vào phần http header và request lại => ok

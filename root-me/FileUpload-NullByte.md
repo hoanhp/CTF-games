@@ -1,0 +1,1 @@
+Tương tự cách làm...như những bài trước. Chỉ khác ở chỗ lần này ta khai thác việc server không đọc những kí tự sau NULL => đặt phần mở rộng .png sau kí tự NULL ( %00) để server không xét đến phần mở rộng này và đọc file dưới dạng php
