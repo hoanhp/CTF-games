@@ -1,0 +1,2 @@
+- Challenge's idea: upload a zipfile which contain a symlink linked with server's index.php
+- Note: don't try to read some common system files like /etc/passwd, /var/www/html/ because it's blocked and you will revieve 403 in response :P

@@ -1,0 +1,4 @@
+- Some filters were applied so characters such as &|; can not be used
+- Using this payload: %0a sleep 5, we can see the effect, so we can use %0a to inject malicious cmd
+- As the response does not show up, we have use blind command injetion to get the content of index.php
+- Final hint: using curl with to upload index.php from vul server to hacker's server
