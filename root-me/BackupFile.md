@@ -1,2 +1,2 @@
-Ở một số hệ thống, sau khi make file thì sẽ có cơ chế tự động backup file này lại. Hoặc các file back up được chính người dùng back-up lại, hoặc được sinh ra khi edit hoặc zipfile. Tuy nhiên đây cũng là một điểm để các  hacker có thể khai thác để tấn công ví dụ như đọc mã nguồn của file... Những file n back-up này thì thường có một số định dạng xác định như .old, .bak, đuôi ~ ( khi edit file trên emacs )
-Cách làm: thêm ~ vào tên file
+- Backup file can be left on server by the mistake of developers or system admins. The most common case ares when using gedit on ubuntu and the backup one automatically be created, zipping file and forget to delete...
+- Find your lucky by searching for some common extension of backup files or using tools to scan all backup file possible
