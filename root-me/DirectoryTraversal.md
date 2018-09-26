@@ -1,2 +1,1 @@
-Mỗi server khi được xây dựng đều có một hệ thống quản lý dữ liệu. Trong đó sẽ có một cây thư mục (root) chứa những file hoặc folder mà mà người dùng bình thường chỉ có thể truy cập dữ liệu trong phạm vi đó.Directory traversal là một khai thác HTTP cho phép tin tặc truy cập đến những chỉ mục bị giới hạn, thực thi lệnh bên ngoài chỉ mục gốc của máy chủ web. Hacker sử dụng dấu ../ định hướng hệ thống tiến lên một chỉ mục. Tin tặc có thể đoán cần vượt qua bao nhiêu chỉ mục để tìm được thư mục muốn truy cập trên hệ thống thông qua nhiều lần thử và thông báo lỗi.
-Cách làm: http://challenge01.root-me.org/web-serveur/ch15/ch15.php?galerie=/
+Access: http://challenge01.root-me.org/web-serveur/ch15/ch15.php?galerie=../ and you will see the magic
