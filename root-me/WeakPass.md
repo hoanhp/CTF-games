@@ -1,1 +1,2 @@
-Mật khẩu dễ đoán: admin pass: admin
+- Using a bruteforce tool to scan for common password
+- Also can use some password list which can be found easily on internet
