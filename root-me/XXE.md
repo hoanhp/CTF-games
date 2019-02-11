@@ -1,0 +1,3 @@
+- http://repository.root-me.org/Exploitation%20-%20Web/EN%20-%20XML%20External%20Entity%20Attacks%20(XXE)%20-%20owasp.pdf (for basic knowledge)
+- https://ysx.me.uk/from-rss-to-xxe-feed-parsing-on-hootsuite/ (for direct manner)
+- base64
