@@ -1,0 +1,2 @@
+- https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/File%20inclusion#wrapper-zip
+- http://php.net/manual/en/wrappers.compression.php
